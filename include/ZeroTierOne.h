@@ -693,7 +693,12 @@ enum ZT_VirtualNetworkStatus
 	/**
 	 * ZeroTier core version too old
 	 */
-	ZT_NETWORK_STATUS_CLIENT_TOO_OLD = 5
+	ZT_NETWORK_STATUS_CLIENT_TOO_OLD = 5,
+
+	/**
+	 * The network is disabled by local config setting
+	 */
+	ZT_NETWORK_DISABLED = 6
 };
 
 /**

@@ -86,6 +86,11 @@ public:
 		 * Allow overriding of system default routes for "full tunnel" operation?
 		 */
 		bool allowDefault;
+
+		/**
+		* A disabled network will not be loaded, but does still exist and can be re-enabled without destroying and re-creating network adapters on Windows
+		*/
+		bool disabled;
 	};
 
 	/**
